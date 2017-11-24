@@ -1,0 +1,10 @@
+data={
+	"woorden":[
+		{"rij":["een","twee","drie"]},
+		{"rij":["vier","vijf","zes"]}
+	],
+	"pseudowoorden":[
+		{"rij":["zeven","acht","negen"]},
+		{"rij":["tien","elf","twaalf"]}
+	]
+}
