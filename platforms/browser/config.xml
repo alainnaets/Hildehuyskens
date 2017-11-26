@@ -8,10 +8,10 @@
     </feature>
     <name>Woordfabriek</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Leesspelletje
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+        <b>Hilde Huyskens</b>
     </author>
     <content src="index.html" />
     <access origin="*" />
