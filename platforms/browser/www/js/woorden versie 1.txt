@@ -1,16 +1,3 @@
-/*
-data={
-	"woorden":[
-		{"rij":["een","twee","drie"]},
-		{"rij":["vier","vijf","zes"]}
-	],
-	"pseudowoorden":[
-		{"rij":["zeven","acht","negen"]},
-		{"rij":["tien","elf","twaalf"]}
-	]
-}
-*/
-
 data={
 	"woorden":[
 		{"rij":["eer","oor","in","op","aan","uit","oom","of","een","en","aap","eet","uur","eik","aas","pa","ma","koe","doe","na","mee","zee","wie","hoe","nu","ga","va","zo","bui","ree","la"]},

@@ -158,6 +158,38 @@ function start_fabriek()
     };
 }
 
+function opnieuw()
+{
+	localStorage.aantalWoord=0;
+	$("#score").css("display","none");
+	$("#fabriek").css("display","block");
+	$("#timer").css("display","block");
+	
+	//start het eerste woord	
+	get_woord();
+	//start timer op 60 seconden in background
+	
+	w = new Worker("js/worker/timer2.js");
+	
+	w.onmessage = function(event) 
+	{
+		if(Number(event.data)>0) document.getElementById("tijd").innerHTML = event.data;
+		else
+		{
+			//worker stoppen
+			w.terminate();
+					
+			//score invullen
+			$("#aantal").html(localStorage.aantalWoord);
+			
+			//fabriek afsluiten en score pagina openen
+			$("#fabriek").css("display","none");
+			$("#timer").css("display","none");
+			$("#score").css("display","block");				
+		}
+    };
+}
+
 function get_woord()
 {
 	//get lengte van array in object

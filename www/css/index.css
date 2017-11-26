@@ -121,8 +121,13 @@ body {
 	top:50%;
 	left:50%;
 	height:150px;
-	width:300px;
+	width:95%;
 	transform: translate(-50%, -50%);	
+}
+
+#fabriek .ui-btn
+{
+	padding: 2em;
 }
 
 #score

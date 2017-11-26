@@ -1,3 +1,4 @@
+/*
 data={
 	"woorden":[
 		{"rij":["een","twee","drie"]},
@@ -6,5 +7,25 @@ data={
 	"pseudowoorden":[
 		{"rij":["zeven","acht","negen"]},
 		{"rij":["tien","elf","twaalf"]}
+	]
+}
+*/
+
+data={
+	"woorden":[
+		{"rij":["eer","oor","in","op","aan","uit","oom","of","een","en","aap","eet","uur","eik","aas","pa","ma","koe","doe","na","mee","zee","wie","hoe","nu","ga","va","zo","bui","ree","la"]},
+		{"rij":["map","kam","kom","ham","hap","bal","rap","gaap","haar","hoor","gang","hang","kaal","naar","niet","bier","biet","boor","ram","jaar","laat","liet","lief","poes","soep","tien","niet","paal","giet","jas","vis"]},
+		{"rij":["sleur","draaf","zweet","slag","stam","draag","schaal","stak","graag","smid","zwak","scheel","staar","spul","bleek","smul","stijl","bloos","klus","sloot","knor","snot","klas","spoor","vlees","broer","snoep","draak","spat","slik","spek"]},
+		{"rij":["doorn","durf","pers","koers","hals","paars","darm","pels","reeds","maand","rund","wind","wesp","leent","kaars","kast","boks","noord","naald","vuist","word","half","niets","zand","volg","kalm","mank","haard","norm","pats","bons"]},
+		{"rij":["zeven","tweetal","kaften","tafel","stoelen","waarom","geven","jullie","weinig","hoeveel","jasje","ringen","zetel","kaarsen","koelkast","muziek","snijmes","lepel","dochter","hartje","laarzen","koffie","tomaat","snoepje","auto","geraas","duiken","vogels","slapen","slaapzak","koude"]},
+		{"rij":["zeventien","achteloos","gevonden","tramsporen","vergissen","wandelschoenen","handschoenen","onderwerp","enkele","overblijven","aflevering","verzamelen","overwinning","tegenstander","minuten","spelletje","presentator","finale","kandidaten","verlegen","verkopen","iedereen","kalender","magneten","familie","verwarming","televisie","knolselder","douchegordijn","ovenschotel","zwemvijver"]}
+	],
+	"pseudowoorden":[
+		{"rij":["eem","aam","aak","eek","eel","aat","ot","oeg","up","ies","uir","oon","ak","uus","el","loo","lee","pee","pie","gee","ba","noe","kui","heu","voo","bee","luu","mui","mie","pie","hoo"]},
+		{"rij":["pos","haam","hoot","gam","puir","beus","vuif","huip","vor","veup","teus","noeg","daaf","paag","zug","suin","goof","tef","meus","peig","neun","baam","goos","liek","foel","pijm","vood","woom","sit","koem","noed"]},
+		{"rij":["snos","plap","snin","vlaf","spal","krong","prijd","drood","kren","traar","spiel","fleun","gron","kwan","stin","frar","smug","kwing","kluip","fruf","draar","spim","smoof","kleil","plaas","ploel","klich","plef","grub","freep","blon"]},
+		{"rij":["saalt","neerd","ruiks","jons","boelt","toeks","mukt","bijgt","faagt","heegs","laapt","sots","maaft","raand","buimt","sorp","wups","mooft","tins","nins","roeds","leurs","foers","purf","sijns","tups","horm","saars","jolm","leilt","tijns"]},
+		{"rij":["truffen","houven","tamen","stokel","jesje","kijftan","hoewan","graken","groelen","vientel","kapeel","hortan","zeezam","snopel","trapels","vroenten","brovel","braasten","horven","kronten","slieren","hostjes","jaantel","vlosem","krampel","broemen","vragels","borvent","groepsem","trampel","gevroomd"]},
+		{"rij":["schaveltien","zemuwels","toveldrang","gemoeders","zwabeldraaf","vergoven","bedraven","gebroende","haarvendien","getronkelde","zweenderig","horveldang","kaloortje","verdolletjes","plameerden","begropering","maanderijen","vladeravel","bloevendeen","kaantjeslaver","verdieving","halpeender","eindermeent","beloorde","pelsaarde","tenderalen","knieveltje","jaronkel","zabeldien","pogelschoot","vrochtiertje"]}
 	]
 }

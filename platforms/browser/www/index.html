@@ -38,8 +38,8 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="js/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
@@ -117,9 +117,10 @@
 		</div>
 		
 		<div id="score">
+			<a data-role="button" data-inline="true" style="font-family:'dyslexieregular'" onClick="home();">MENU</a>
+			<a data-role="button" data-inline="true" style="font-family:'dyslexieregular'" onClick="opnieuw();">OPNIEUW</a>
 			<h3>Gelezen woorden</h3><br><br>
 			<span id="aantal"></span><br><br><br>
-			<button class='ui-btn' style="font-family:'dyslexieregular'"  onClick="home();">Start opnieuw</button>
 		</div>
 		
 	</div><!-- /content -->
