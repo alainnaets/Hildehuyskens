@@ -47,6 +47,16 @@ var app = {
 
 var databank;
 var gelezen;
+var uniqueRandoms=[];
+
+function startUniqueRandoms(aantal)
+{
+	uniqueRandoms=[];
+	for(var i=0;i<aantal;i++)
+	{
+		uniqueRandoms.push(i);
+	}
+}
 
 function keuzeSoort(soort)
 {
@@ -133,6 +143,9 @@ function start_fabriek()
 		
 	}
 	
+	//adrandom array maken voor enkele weergave van elk woord per oefening
+	var aantal = databank.length;
+	startUniqueRandoms(aantal);
 	//start het eerste woord	
 	get_woord();
 	//start timer op 60 seconden in background
@@ -165,6 +178,9 @@ function opnieuw()
 	$("#fabriek").css("display","block");
 	$("#timer").css("display","block");
 	
+	//adrandom array maken voor enkele weergave van elk woord per oefening
+	var aantal = databank.length;
+	startUniqueRandoms(aantal);
 	//start het eerste woord	
 	get_woord();
 	//start timer op 60 seconden in background
@@ -193,11 +209,18 @@ function opnieuw()
 function get_woord()
 {
 	//get lengte van array in object
-	var aantal = databank.length;
-	var adrandom = Math.floor((Math.random() * aantal));
-	$("#random").html(adrandom);
-	$("#aantal_woord").html(aantal);
-	$("#lees_woord").html(databank[adrandom]);
+	//var aantal = databank.length;
+	//var adrandom = Math.floor((Math.random() * aantal));
+	
+	var aantal=uniqueRandoms.length; //zoek de lengte van de unieke array
+	var index = Math.floor((Math.random() * aantal)); //genereer een adrandom index
+	var adrandom=uniqueRandoms[index]; //neem de waarde uit de unieke array met aangemaakte index
+	//verwijder de index uit de array
+	uniqueRandoms.splice(index,1); 
+	//toon het nieuwe woord
+	$("#random").html(adrandom); //toon adrandom cijfer
+	$("#aantal_woord").html(aantal); //toon het aantal gelezen woorden
+	$("#lees_woord").html(databank[adrandom]); //geef het nieuwe woord weer op scherm
 }
 
 function volgende_woord()
